@@ -7,19 +7,11 @@ global numberOfDice
 
 
 
-
-
-
-
-
-
-
-
 ##################################################
 #####    VALUES TO CHANGE BASED ON NEEDS     #####
 
 
-seedValue = 1
+seedValue = 123456789
 numberOfSides = 6
 numberOfDice = 6
 
@@ -31,12 +23,7 @@ nameList = [['jbsheSIyQjJDLtueCsBB', 0], ['FBrqCEMBBzfdDSaSBBOw', 0], ['uYEAhYjo
 
 
 
-
-
-
-
-
-#random.seed(seedValue)
+random.seed(seedValue)
 
 def rollDice():
 	result = 0
